@@ -1,0 +1,15 @@
+{
+  "name": "entrada",
+  "version": "1.0.0",
+  "description": "CLI utility to make a edit a markdown easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI",
+    "interview"
+  ],
+  "author": "Shaswat Rungta",
+  "license": "MIT"
+}
