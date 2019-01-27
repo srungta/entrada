@@ -5,7 +5,7 @@ const figlet = require('figlet')
 //  user requires.
 const files = require('./lib/files')
 
-// main
+// Introduction
 clear();
 console.log(
     chalk.yellow(
@@ -15,3 +15,8 @@ console.log(
         )
     )
 );
+
+if (files.directExists('.git')) {
+    console.log(chalk.red('Already a git repository'));
+    process.exit();
+}
