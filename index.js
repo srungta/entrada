@@ -4,7 +4,7 @@ const clear = require('clear');
 const figlet = require('figlet');
 //  user requires.
 const files = require('./lib/files');
-const inquirer = require('./lib/inquirer');
+const github = require('./lib/github');
 
 // Introduction
 clear();
@@ -17,8 +17,7 @@ if (files.directExists('.git')) {
 }
 
 const main = async () => {
-  const credentials = await inquirer.askGitHubCredentials();
-  console.log(credentials);
+  await github.login();
 };
 
 main();
