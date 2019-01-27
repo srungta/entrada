@@ -1,0 +1,15 @@
+{
+  "cSpell.words": [
+    "Rungta",
+    "Shaswat",
+    "entrada",
+    "linebreak"
+  ],
+  "editor.tabSize": 2,
+  "editor.formatOnType": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "editor.detectIndentation": false,
+  "prettier.eslintIntegration": true,
+  "prettier.tabWidth": 4,
+  "prettier.stylelintIntegration": true
+}

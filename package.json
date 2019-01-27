@@ -4,7 +4,8 @@
   "description": "CLI utility to make a edit a markdown easily",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
   },
   "keywords": [
     "CLI",
@@ -20,5 +21,9 @@
     "figlet": "^1.2.1",
     "inquirer": "^6.2.1",
     "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-google": "^0.11.0"
   }
 }
